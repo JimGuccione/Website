@@ -1,0 +1,19 @@
+.jumbotron{
+    margin-top:90px;
+}
+.Grid{
+    height:900px;
+    background-color: black;
+}
+.questions{
+ height: 900px;
+    font-family: Copperplate;
+    font-size: large;
+    font-weight: bolder;
+}
+.person{
+    justify-items: center;
+    display: block;
+    width: 50%;
+    height:50%;
+}

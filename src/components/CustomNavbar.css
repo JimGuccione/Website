@@ -1,0 +1,41 @@
+.navbar {
+    border-color: black;
+    background-color: red;
+    position:fixed;
+    top:0;
+    width:100%;
+    padding-right:250px;
+
+}
+.navbar.header {
+
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background-color: black;
+    margin-left:-105px;
+    margin-right:-105px;
+    padding-right:100px;
+    font-family: "Friday Night Lights";
+    font-size: large;
+    color:blue;
+    z-index: 500;
+}
+.navbar-brand{
+    font-family: "Friday Night Lights";
+    font-size: xx-large;
+    background-color: black;
+    color: blue;
+    z-index: 500;
+}
+.navbar-default .navbar-brand {
+    color: blue;
+    z-index: 500;
+}
+.navbar-default .navbar-nav>li>a {
+    color: blue;
+    z-index: 500;
+}
+.nav{
+    z-index: 500;
+}

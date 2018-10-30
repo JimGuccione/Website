@@ -1,0 +1,17 @@
+.footerContainer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+.footerLinks{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:20px;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+
+
+}
