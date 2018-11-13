@@ -7,6 +7,8 @@ import "./CustomNavbar.css";
 class CustomNavbar extends Component {
     render() {
         return (
+            <div id="smartNav">
+            <div className="navContainer">
             <Navbar default collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
@@ -34,6 +36,8 @@ class CustomNavbar extends Component {
                      </Nav>
                 </Navbar.Collapse>
             </Navbar>
+            </div>
+            </div>
         );
     }
 }

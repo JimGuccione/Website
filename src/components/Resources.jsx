@@ -1,21 +1,22 @@
 import React, {Component} from 'react';
-import { Image } from "react-bootstrap";
+import { Image, style, Grid } from "react-bootstrap";
 import Navbar from './CustomNavbar';
+import {Style} from "react";
 import "./Resources.css";
+import width from "material/src/slider";
 
 class Resources extends Component {
     render() {
         return (
-
-            <div className='containResource'>
-                <Navbar />
+            <div>
+            <Grid>
+                <div className='containResource'>
                 <div className='resourceStuff'>
                     <div className="trainingCard">
                     <div className="flip-card">
                         <div className="flip-card-inner">
-                            <div className="flip-card-front">
-                                <Image src="./assets/yogi berra.png" alt="Avatar">
-                                </Image>
+                            <div className="flip-card-front" styles="width:400px height:400px;">
+                                <Image src="./assets/yogi 200.png" alt="Avatar" height={200} width={400} />
                             </div>
                             <div className="flip-card-back">
                                 <h1>Training</h1>
@@ -31,7 +32,7 @@ class Resources extends Component {
                     <div className="flip-card">
                         <div className="flip-card-inner">
                             <div className="flip-card-front">
-                                <Image src="./assets/tommy lasorda.png" alt="Avatar">
+                                <Image src="./assets/tommy lasorda.png" alt="Avatar" height={"200px"}>
                                 </Image>
                             </div>
                             <div className="flip-card-back">
@@ -46,7 +47,7 @@ class Resources extends Component {
                     <div className="flip-card">
                         <div className="flip-card-inner">
                             <div className="flip-card-front">
-                                <Image src="./assets/derek jeter.png" alt="Avatar">
+                                <Image src="./assets/derek jeter.png" alt="Avatar" height="200px">
                                 </Image>
                             </div>
                             <div className="flip-card-back">
@@ -66,7 +67,7 @@ class Resources extends Component {
                     <div className="flip-card">
                         <div className="flip-card-inner">
                             <div className="flip-card-front">
-                                <Image src="./assets/tom hanks.png" alt="Avatar">
+                                <Image src="./assets/tom hanks.png" alt="Avatar" height="200px">
                                 </Image>
                             </div>
                             <div className="flip-card-back">
@@ -81,7 +82,7 @@ class Resources extends Component {
                     <div className="flip-card">
                         <div className="flip-card-inner">
                             <div className="flip-card-front">
-                                <Image src="./assets/joe dimaggio.png" alt="Avatar">
+                                <Image src="./assets/joe dimaggio.png" alt="Avatar" height="200px">
                                 </Image>
                             </div>
                             <div className="flip-card-back">
@@ -96,7 +97,7 @@ class Resources extends Component {
                     <div className="flip-card">
                         <div className="flip-card-inner">
                             <div className="flip-card-front">
-                                <Image src="./assets/mickey mantle.png" alt="Avatar">
+                                <Image src="./assets/mickey mantle.png" alt="Avatar" height="200px">
                                 </Image>
                             </div>
                             <div className="flip-card-back">
@@ -114,6 +115,8 @@ class Resources extends Component {
                 <br />
                 <br />
                 <br />
+                </div>
+            </Grid>
         </div>
         );
     }

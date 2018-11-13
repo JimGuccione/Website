@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-import {Jumbotron, Grid, Row, Col, Image, Button} from 'react-bootstrap';
+import {Jumbotron, Grid, Row, Col, Image, Button, ButtonToolbar} from 'react-bootstrap';
+import Navbar from "./CustomNavbar";
+import Freshman from "./pages/Freshman";
 import './Home.css';
 
 class Home extends Component {
@@ -11,9 +13,13 @@ class Home extends Component {
                     <h2>Welcome to GNLB</h2>
                     <p> Get Recruited</p>
                 </Jumbotron>
-                <Link to="/about">
-                    <Button bsStyle="primary">About Us</Button>
-                </Link>
+                    <ButtonToolbar>
+                        <Button href="./pages/freshman" bsStyle="primary">Freshman</Button>
+                        <Button href="./pages/sophomore" bsStyle="primary">Sophomore</Button>
+                        <Button href="./pages/freshman" bsStyle="primary">Junior</Button>
+                        <Button href="./pages/senior" bsStyle="primary">Senior</Button>
+                        <Button href="./pages/prehighschool" bsStyle="primary">Eighth Grade</Button>
+                    </ButtonToolbar>
                 <div className="questions">
                     <h2>Player Pipeline Recruiting Service</h2>
                     <p>Player Pipeline is a college recruiting service for student athletes.

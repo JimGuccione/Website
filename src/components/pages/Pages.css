@@ -1,3 +1,53 @@
+.containFreshman {
+    height: 900px;
+    position: relative;
+    background-color: darkslateblue;
+    padding: 60px 100px 1in;
+}
+@keyframes containSophomore {
+    from {background-color: blue;}
+    to {background-color: black;}
+}
+
+.containSophomore{
+    width: 100%;
+    height: 140px;
+    position: relative;
+    background-color: blue;
+    animation-name: containSophomore;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    padding-left: 100px;
+}
+.containSophomore2{
+    font-family: Copperplate;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+.academicTips{
+    color: blue;
+    font-size: xx-large;
+    font-family: "Copperplate";
+}
+.athleticTips{
+    color: blue;
+    font-size: xx-large;
+    font-family: "Copperplate";
+}
+.person-mm {
+    justify-items: center;
+    display: block;
+    width: 90%;
+    height: 80%;
+}
+.example{
+    color: black;
+    font-size: xx-large;
+    font-family: "Friday Night Lights";
+}
+
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
@@ -32,10 +82,8 @@
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-    background-color:black;
-    color: blue;
-    width: 300px;
-    height: 200px;
+    background-color: #bbb;
+    color: black;
 }
 
 /* Style the back side */
@@ -43,47 +91,8 @@
     background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
-    padding-left:1px;
-    padding-right:1px;
 }
-.resourceStuff{
-    display:flex;
-    margin-top: 70px;
-    justify-items: flex-start;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 100%;
-    z-index:200;
-
-}
-.resourceStuff2{
-    display:flex;
-    margin-top: 70px;
-    justify-items: flex-start;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 100%;
-    z-index:200;
-}
-
-.containResource{
-    height:900px;
-    position:relative;
-    background-color: darkslateblue;
-    padding: 20px 100px 1in;
-
-}
-.container{
-    display: block;
-    z-index:200;
-}
-.navbar{
-    z-index:500;
-}
-.footer{
-    z-index:600;
-    bottom:0;
-}
-.img{
-    height:200px;
+.seniorContain{
+    padding-top:200px;
+    padding-left: 200px;
 }

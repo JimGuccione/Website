@@ -1,0 +1,36 @@
+.faqContain {
+    height: 900px;
+    position: relative;
+    background-color: darkslateblue;
+    padding: 60px 100px 1in;
+}
+img{
+    width:200px;
+}
+.ul {
+    position: relative;
+}
+
+.li {
+    justify-content: space-between;
+    display: flex !important;
+    position:relative;
+    align-items: center;
+}
+.fade-enter{
+    right:100px;
+}
+.fade-enter-active{
+    right:0px;
+    transition: .5s ease-in all;
+}
+.fade-leave{
+   right:0px;
+}
+.fade-leave-active{
+    right:-100px;
+    transition: .5s ease-out all;
+}
+.questions{
+    color:red;
+}

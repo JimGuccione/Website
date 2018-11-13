@@ -3,7 +3,7 @@
     bottom: 0;
     width: 100%;
     background-color: black;
-    height: 100px;
+    height: 70px;
 }
 .footerLinks{
     display: flex;
@@ -12,6 +12,4 @@
     color: white;
     font-weight: bolder;
     font-size: large;
-
-
 }
