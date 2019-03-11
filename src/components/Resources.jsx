@@ -15,8 +15,8 @@ class Resources extends Component {
                     <div className="trainingCard">
                     <div className="flip-card">
                         <div className="flip-card-inner">
-                            <div className="flip-card-front" styles="width:400px height:400px;">
-                                <Image src="./assets/yogi 200.png" alt="Avatar" height={200} width={400} />
+                            <div className="flip-card-front" styles="width:400px height:300px;">
+                                <Image src="./assets/yogi 200.png" alt="Avatar" width={"400px"} />
                             </div>
                             <div className="flip-card-back">
                                 <h1>Training</h1>
