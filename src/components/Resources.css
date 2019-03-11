@@ -3,8 +3,8 @@
     background-color: transparent;
     width: 400px;
     height: 300px;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    border: 0px solid black;
+    perspective: 400px; /* Remove this if you don't want the 3D effect */
 }
 
 /* This container is needed to position the front and back side */
@@ -32,10 +32,11 @@
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-    background-color:black;
+    background-color:blue;
     color: blue;
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 400px;
+
 
 }
 
@@ -44,8 +45,8 @@
     background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
-    padding-left:1px;
-    padding-right:1px;
+    padding-left:50px;
+    padding-right:50px;
 }
 .resourceStuff{
     display:flex;
@@ -68,14 +69,16 @@
 }
 
 .containResource{
-    height:100%;
+    height:1000px;
     position:relative;
-    background-color: darkslateblue;
-    padding: 20px 100px 1in;
+    background-color: yellow;
+    padding: 20px 50px 1in;
 
 }
 .container{
-    display: block;
+    display: inline-block;
+    color:blue;
+    background-image: image();
     z-index:200;
 }
 .navbar{
@@ -85,14 +88,6 @@
     z-index:600;
     bottom:0;
 }
-Image{
-    height:400px;
-}
+Image {
 
-/* Style the front side (fallback if image is missing) */
-.flip-card-front, Image {
-    background-color: black;
-    color: blue;
-    width: content-box;
-    height: content-box;
 }

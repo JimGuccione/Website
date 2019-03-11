@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"2kenizer@*":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/2kenizer/-/2kenizer-0.1.6.tgz#a4cc5263894aedec995493af7735f87872f6b390"
+  integrity sha1-pMxSY4lK7eyZVJOvdzX4eHL2s5A=
+
 "@babel/code-frame@7.0.0", "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.0.0-beta.35":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.0.0.tgz#06e2ab19bdb535385559aabb5ba59729482800f8"
@@ -6897,6 +6902,14 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
+php@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/php/-/php-0.0.1.tgz#df88ec9c7add9146b1578dd18eb30fb929cbc2cc"
+  integrity sha1-34jsnHrdkUaxV43RjrMPuSnLwsw=
+  dependencies:
+    "2kenizer" "*"
+    sjs "*"
+
 pify@^2.0.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
@@ -8750,6 +8763,13 @@ sisteransi@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-0.1.1.tgz#5431447d5f7d1675aac667ccd0b865a4994cb3ce"
   integrity sha512-PmGOd02bM9YO5ifxpw36nrNMBTptEtfRl4qUYl9SndkolplkrZZOW7PGHjrZL53QvMVj9nQ+TKqUnRsw4tJa4g==
+
+sjs@*:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/sjs/-/sjs-0.0.3.tgz#38cb101cfbe57b7f6aaee70062d5b59f8f9b0273"
+  integrity sha1-OMsQHPvle39qrucAYtW1n4+bAnM=
+  dependencies:
+    "2kenizer" "*"
 
 slash@^1.0.0:
   version "1.0.0"
