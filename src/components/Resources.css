@@ -70,8 +70,9 @@
 
 .containResource{
     height:1000px;
+    width:100%;
     position:relative;
-    background-color: yellow;
+    background-color: black;
     padding: 20px 50px 1in;
 
 }

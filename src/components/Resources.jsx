@@ -20,10 +20,10 @@ class Resources extends Component {
                             </div>
                             <div className="flip-card-back">
                                 <h1>Training</h1>
-                                <p>To get Bigger, Stronger, Faster,
-                                You MUST get proper training.</p>
+                                <p>The First Step to getting Bigger, Stronger, Faster,
+                                is getting STRONGER</p>
                                 <p>Developing a training program to
-                                help you achieve your goals.</p>
+                                help you achieve your goals is key to compete against today's athletes</p>
                             </div>
                         </div>
                     </div>
@@ -36,9 +36,8 @@ class Resources extends Component {
                                 </Image>
                             </div>
                             <div className="flip-card-back">
-                                <h1>Grades</h1>
-                                <p>It can seem impossible to manage training, playing and school work.</p>
-                                <p>We take</p>
+                                <h1>Greatness is not a gift</h1>
+                                <p>Greatness lives in every player, it is an individuals desire to work and achieve that pushes him to greatness </p>
                             </div>
                         </div>
                     </div>
@@ -71,8 +70,8 @@ class Resources extends Component {
                                 </Image>
                             </div>
                             <div className="flip-card-back">
-                                <h1>John Doe</h1>
-                                <p>Architect & Engineer</p>
+                                <h1>Talent vs Skill</h1>
+                                <p>Timing beats Speed, </p>
                                 <p>We love that guy</p>
                             </div>
                         </div>
@@ -86,9 +85,9 @@ class Resources extends Component {
                                 </Image>
                             </div>
                             <div className="flip-card-back">
-                                <h1>John Doe</h1>
-                                <p>Architect & Engineer</p>
-                                <p>We love that guy</p>
+                                <h1>Who is Looking</h1>
+                                <p>Hustle, Attitude and Effort</p>
+                                <p>Three things that go a long way with coaches, require absolutely no skill or talent</p>
                             </div>
                         </div>
                     </div>

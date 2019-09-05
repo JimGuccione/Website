@@ -1,8 +1,13 @@
-.jumbotron{
-    margin-top:90px;
+.jumbotron .row{
+    margin-top:0px;
+
+    height:80px;
+    width:100%;
+    background-color: blue;
+
 }
 .Grid{
-    height:900px;
+    height:400px;
     background-color: black;
 }
 .questions{
@@ -11,9 +16,37 @@
     font-size: large;
     font-weight: bolder;
 }
+
+.questions text1{
+    font-size: xx-large;
+    color:blue;
+}
+.questions text2 {
+    font-size: x-large;
+    color:darkslategray;
+}
+
 .person{
     justify-items: center;
-    display: block;
+    display: flex;
     width: 50%;
-    height:50%;
+    height:100%;
+}
+
+.jumbotron {
+    height: 300px;
+    background-color: blue;
+    margin-bottom: 5px;
+}
+
+.row{
+    height:300px;
+}
+.container {
+    padding-left: 100px;
+}
+
+p, h2{
+    color:white;
+    font-family: Copperplate;
 }
