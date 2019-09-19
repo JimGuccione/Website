@@ -13,7 +13,7 @@ class Freshman extends Component {
                 <br />
                 <br />
 
-                IM A FRESH
+                IM A FRESHMAN
 
             </div>
         );
